@@ -22,7 +22,6 @@ set(IO2D_WITHOUT_TESTS 1)
 
 # Add the pugixml and GoogleTest library subdirectories
 add_subdirectory(thirdparty/pugixml)
-add_subdirectory(thirdparty/googletest)
 
 # Add project executable
 add_executable(OSM_A_star_search src/main.cpp src/model.cpp src/render.cpp src/route_model.cpp src/route_planner.cpp)
